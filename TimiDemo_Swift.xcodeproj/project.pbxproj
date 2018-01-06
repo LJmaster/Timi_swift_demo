@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3582F37A1FFCEAFC0029D64C /* TimiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3582F3791FFCEAFC0029D64C /* TimiCell.swift */; };
+		3582F37C1FFCF7F70029D64C /* TimiDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3582F37B1FFCF7F70029D64C /* TimiDetailViewController.swift */; };
+		3582F37E1FFCFFB30029D64C /* TimiCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3582F37D1FFCFFB30029D64C /* TimiCycleView.swift */; };
+		3592AFA81FFCBD94002A661F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3592AFA71FFCBD94002A661F /* AppDelegate.swift */; };
+		3592AFAA1FFCBD94002A661F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3592AFA91FFCBD94002A661F /* ViewController.swift */; };
+		3592AFAD1FFCBD94002A661F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3592AFAB1FFCBD94002A661F /* Main.storyboard */; };
+		3592AFAF1FFCBD94002A661F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3592AFAE1FFCBD94002A661F /* Assets.xcassets */; };
+		3592AFB21FFCBD94002A661F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3592AFB01FFCBD94002A661F /* LaunchScreen.storyboard */; };
+		3592AFBD1FFCBD95002A661F /* TimiDemo_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3592AFBC1FFCBD95002A661F /* TimiDemo_SwiftTests.swift */; };
+		3592AFC81FFCBD95002A661F /* TimiDemo_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3592AFC71FFCBD95002A661F /* TimiDemo_SwiftUITests.swift */; };
+		3592AFD61FFCCB15002A661F /* TimiTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3592AFD51FFCCB15002A661F /* TimiTopView.swift */; };
+		35D38F641FFDCC1A00DD660F /* TimiAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D38F631FFDCC1A00DD660F /* TimiAddViewController.swift */; };
+		35D38F6E1FFE40B400DD660F /* TimiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D38F6D1FFE40B300DD660F /* TimiData.swift */; };
+		35D38F751FFE424700DD660F /* SampleTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D38F741FFE424700DD660F /* SampleTable.swift */; };
+		ED70DAE65E4164EF639F8191 /* Pods_TimiDemo_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDEEFE9360C9ED3C2B649708 /* Pods_TimiDemo_Swift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3592AFB91FFCBD95002A661F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3592AF9C1FFCBD94002A661F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3592AFA31FFCBD94002A661F;
+			remoteInfo = TimiDemo_Swift;
+		};
+		3592AFC41FFCBD95002A661F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3592AF9C1FFCBD94002A661F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3592AFA31FFCBD94002A661F;
+			remoteInfo = TimiDemo_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3582F3791FFCEAFC0029D64C /* TimiCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimiCell.swift; sourceTree = "<group>"; };
+		3582F37B1FFCF7F70029D64C /* TimiDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimiDetailViewController.swift; sourceTree = "<group>"; };
+		3582F37D1FFCFFB30029D64C /* TimiCycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimiCycleView.swift; sourceTree = "<group>"; };
+		3592AFA41FFCBD94002A661F /* TimiDemo_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimiDemo_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3592AFA71FFCBD94002A661F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3592AFA91FFCBD94002A661F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3592AFAC1FFCBD94002A661F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3592AFAE1FFCBD94002A661F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3592AFB11FFCBD94002A661F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3592AFB31FFCBD94002A661F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3592AFB81FFCBD95002A661F /* TimiDemo_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimiDemo_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3592AFBC1FFCBD95002A661F /* TimiDemo_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimiDemo_SwiftTests.swift; sourceTree = "<group>"; };
+		3592AFBE1FFCBD95002A661F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3592AFC31FFCBD95002A661F /* TimiDemo_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimiDemo_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3592AFC71FFCBD95002A661F /* TimiDemo_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimiDemo_SwiftUITests.swift; sourceTree = "<group>"; };
+		3592AFC91FFCBD95002A661F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3592AFD51FFCCB15002A661F /* TimiTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimiTopView.swift; sourceTree = "<group>"; };
+		35D38F631FFDCC1A00DD660F /* TimiAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimiAddViewController.swift; sourceTree = "<group>"; };
+		35D38F6D1FFE40B300DD660F /* TimiData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimiData.swift; sourceTree = "<group>"; };
+		35D38F741FFE424700DD660F /* SampleTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTable.swift; sourceTree = "<group>"; };
+		5111833D0424DCF31CEFB8BB /* Pods-TimiDemo_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimiDemo_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimiDemo_Swift/Pods-TimiDemo_Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		BDEEFE9360C9ED3C2B649708 /* Pods_TimiDemo_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimiDemo_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E020C898BB9AA73A7EC0DBAC /* Pods-TimiDemo_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimiDemo_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimiDemo_Swift/Pods-TimiDemo_Swift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3592AFA11FFCBD94002A661F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED70DAE65E4164EF639F8191 /* Pods_TimiDemo_Swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3592AFB51FFCBD95002A661F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3592AFC01FFCBD95002A661F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04250F0B354E12E80631194F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5111833D0424DCF31CEFB8BB /* Pods-TimiDemo_Swift.debug.xcconfig */,
+				E020C898BB9AA73A7EC0DBAC /* Pods-TimiDemo_Swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		30FE5628AA5370933CFA0609 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDEEFE9360C9ED3C2B649708 /* Pods_TimiDemo_Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3592AF9B1FFCBD94002A661F = {
+			isa = PBXGroup;
+			children = (
+				3592AFA61FFCBD94002A661F /* TimiDemo_Swift */,
+				3592AFBB1FFCBD95002A661F /* TimiDemo_SwiftTests */,
+				3592AFC61FFCBD95002A661F /* TimiDemo_SwiftUITests */,
+				3592AFA51FFCBD94002A661F /* Products */,
+				04250F0B354E12E80631194F /* Pods */,
+				30FE5628AA5370933CFA0609 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3592AFA51FFCBD94002A661F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3592AFA41FFCBD94002A661F /* TimiDemo_Swift.app */,
+				3592AFB81FFCBD95002A661F /* TimiDemo_SwiftTests.xctest */,
+				3592AFC31FFCBD95002A661F /* TimiDemo_SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3592AFA61FFCBD94002A661F /* TimiDemo_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				3592AFA71FFCBD94002A661F /* AppDelegate.swift */,
+				3592AFA91FFCBD94002A661F /* ViewController.swift */,
+				35D38F631FFDCC1A00DD660F /* TimiAddViewController.swift */,
+				3582F37B1FFCF7F70029D64C /* TimiDetailViewController.swift */,
+				3592AFD51FFCCB15002A661F /* TimiTopView.swift */,
+				3582F3791FFCEAFC0029D64C /* TimiCell.swift */,
+				35D38F6C1FFE40B300DD660F /* WCDB_Timi */,
+				3582F37D1FFCFFB30029D64C /* TimiCycleView.swift */,
+				3592AFAB1FFCBD94002A661F /* Main.storyboard */,
+				3592AFAE1FFCBD94002A661F /* Assets.xcassets */,
+				3592AFB01FFCBD94002A661F /* LaunchScreen.storyboard */,
+				3592AFB31FFCBD94002A661F /* Info.plist */,
+			);
+			path = TimiDemo_Swift;
+			sourceTree = "<group>";
+		};
+		3592AFBB1FFCBD95002A661F /* TimiDemo_SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				3592AFBC1FFCBD95002A661F /* TimiDemo_SwiftTests.swift */,
+				3592AFBE1FFCBD95002A661F /* Info.plist */,
+			);
+			path = TimiDemo_SwiftTests;
+			sourceTree = "<group>";
+		};
+		3592AFC61FFCBD95002A661F /* TimiDemo_SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3592AFC71FFCBD95002A661F /* TimiDemo_SwiftUITests.swift */,
+				3592AFC91FFCBD95002A661F /* Info.plist */,
+			);
+			path = TimiDemo_SwiftUITests;
+			sourceTree = "<group>";
+		};
+		35D38F6C1FFE40B300DD660F /* WCDB_Timi */ = {
+			isa = PBXGroup;
+			children = (
+				35D38F6D1FFE40B300DD660F /* TimiData.swift */,
+				35D38F741FFE424700DD660F /* SampleTable.swift */,
+			);
+			path = WCDB_Timi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3592AFA31FFCBD94002A661F /* TimiDemo_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3592AFCC1FFCBD95002A661F /* Build configuration list for PBXNativeTarget "TimiDemo_Swift" */;
+			buildPhases = (
+				7985CBF473F8B99EBC9198D4 /* [CP] Check Pods Manifest.lock */,
+				3592AFA01FFCBD94002A661F /* Sources */,
+				3592AFA11FFCBD94002A661F /* Frameworks */,
+				3592AFA21FFCBD94002A661F /* Resources */,
+				4DB3EBB5D4BC88238C43796E /* [CP] Embed Pods Frameworks */,
+				F4224CEB3369D0B083A4991C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimiDemo_Swift;
+			productName = TimiDemo_Swift;
+			productReference = 3592AFA41FFCBD94002A661F /* TimiDemo_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3592AFB71FFCBD95002A661F /* TimiDemo_SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3592AFCF1FFCBD95002A661F /* Build configuration list for PBXNativeTarget "TimiDemo_SwiftTests" */;
+			buildPhases = (
+				3592AFB41FFCBD95002A661F /* Sources */,
+				3592AFB51FFCBD95002A661F /* Frameworks */,
+				3592AFB61FFCBD95002A661F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3592AFBA1FFCBD95002A661F /* PBXTargetDependency */,
+			);
+			name = TimiDemo_SwiftTests;
+			productName = TimiDemo_SwiftTests;
+			productReference = 3592AFB81FFCBD95002A661F /* TimiDemo_SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3592AFC21FFCBD95002A661F /* TimiDemo_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3592AFD21FFCBD95002A661F /* Build configuration list for PBXNativeTarget "TimiDemo_SwiftUITests" */;
+			buildPhases = (
+				3592AFBF1FFCBD95002A661F /* Sources */,
+				3592AFC01FFCBD95002A661F /* Frameworks */,
+				3592AFC11FFCBD95002A661F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3592AFC51FFCBD95002A661F /* PBXTargetDependency */,
+			);
+			name = TimiDemo_SwiftUITests;
+			productName = TimiDemo_SwiftUITests;
+			productReference = 3592AFC31FFCBD95002A661F /* TimiDemo_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3592AF9C1FFCBD94002A661F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "刘杰";
+				TargetAttributes = {
+					3592AFA31FFCBD94002A661F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3592AFB71FFCBD95002A661F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3592AFA31FFCBD94002A661F;
+					};
+					3592AFC21FFCBD95002A661F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3592AFA31FFCBD94002A661F;
+					};
+				};
+			};
+			buildConfigurationList = 3592AF9F1FFCBD94002A661F /* Build configuration list for PBXProject "TimiDemo_Swift" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3592AF9B1FFCBD94002A661F;
+			productRefGroup = 3592AFA51FFCBD94002A661F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3592AFA31FFCBD94002A661F /* TimiDemo_Swift */,
+				3592AFB71FFCBD95002A661F /* TimiDemo_SwiftTests */,
+				3592AFC21FFCBD95002A661F /* TimiDemo_SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3592AFA21FFCBD94002A661F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3592AFB21FFCBD94002A661F /* LaunchScreen.storyboard in Resources */,
+				3592AFAF1FFCBD94002A661F /* Assets.xcassets in Resources */,
+				3592AFAD1FFCBD94002A661F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3592AFB61FFCBD95002A661F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3592AFC11FFCBD95002A661F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DB3EBB5D4BC88238C43796E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimiDemo_Swift/Pods-TimiDemo_Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7985CBF473F8B99EBC9198D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F4224CEB3369D0B083A4991C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimiDemo_Swift/Pods-TimiDemo_Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3592AFA01FFCBD94002A661F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3582F37A1FFCEAFC0029D64C /* TimiCell.swift in Sources */,
+				3592AFD61FFCCB15002A661F /* TimiTopView.swift in Sources */,
+				3592AFAA1FFCBD94002A661F /* ViewController.swift in Sources */,
+				35D38F641FFDCC1A00DD660F /* TimiAddViewController.swift in Sources */,
+				3592AFA81FFCBD94002A661F /* AppDelegate.swift in Sources */,
+				3582F37E1FFCFFB30029D64C /* TimiCycleView.swift in Sources */,
+				35D38F751FFE424700DD660F /* SampleTable.swift in Sources */,
+				35D38F6E1FFE40B400DD660F /* TimiData.swift in Sources */,
+				3582F37C1FFCF7F70029D64C /* TimiDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3592AFB41FFCBD95002A661F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3592AFBD1FFCBD95002A661F /* TimiDemo_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3592AFBF1FFCBD95002A661F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3592AFC81FFCBD95002A661F /* TimiDemo_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3592AFBA1FFCBD95002A661F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3592AFA31FFCBD94002A661F /* TimiDemo_Swift */;
+			targetProxy = 3592AFB91FFCBD95002A661F /* PBXContainerItemProxy */;
+		};
+		3592AFC51FFCBD95002A661F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3592AFA31FFCBD94002A661F /* TimiDemo_Swift */;
+			targetProxy = 3592AFC41FFCBD95002A661F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3592AFAB1FFCBD94002A661F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3592AFAC1FFCBD94002A661F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3592AFB01FFCBD94002A661F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3592AFB11FFCBD94002A661F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3592AFCA1FFCBD95002A661F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3592AFCB1FFCBD95002A661F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3592AFCD1FFCBD95002A661F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5111833D0424DCF31CEFB8BB /* Pods-TimiDemo_Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TimiDemo_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liujie.TimiDemo-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Debug;
+		};
+		3592AFCE1FFCBD95002A661F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E020C898BB9AA73A7EC0DBAC /* Pods-TimiDemo_Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TimiDemo_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liujie.TimiDemo-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Release;
+		};
+		3592AFD01FFCBD95002A661F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TimiDemo_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liujie.TimiDemo-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimiDemo_Swift.app/TimiDemo_Swift";
+			};
+			name = Debug;
+		};
+		3592AFD11FFCBD95002A661F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TimiDemo_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liujie.TimiDemo-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimiDemo_Swift.app/TimiDemo_Swift";
+			};
+			name = Release;
+		};
+		3592AFD31FFCBD95002A661F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TimiDemo_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liujie.TimiDemo-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TimiDemo_Swift;
+			};
+			name = Debug;
+		};
+		3592AFD41FFCBD95002A661F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TimiDemo_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liujie.TimiDemo-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TimiDemo_Swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3592AF9F1FFCBD94002A661F /* Build configuration list for PBXProject "TimiDemo_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3592AFCA1FFCBD95002A661F /* Debug */,
+				3592AFCB1FFCBD95002A661F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3592AFCC1FFCBD95002A661F /* Build configuration list for PBXNativeTarget "TimiDemo_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3592AFCD1FFCBD95002A661F /* Debug */,
+				3592AFCE1FFCBD95002A661F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3592AFCF1FFCBD95002A661F /* Build configuration list for PBXNativeTarget "TimiDemo_SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3592AFD01FFCBD95002A661F /* Debug */,
+				3592AFD11FFCBD95002A661F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3592AFD21FFCBD95002A661F /* Build configuration list for PBXNativeTarget "TimiDemo_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3592AFD31FFCBD95002A661F /* Debug */,
+				3592AFD41FFCBD95002A661F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3592AF9C1FFCBD94002A661F /* Project object */;
+}
